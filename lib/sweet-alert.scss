@@ -120,7 +120,7 @@
 	}
 
 
-	.icon {
+	.sweet-icon {
 		$red: 		#F27474;
 		$orange: 	#F8BB86;
 		$blue: 		#C9DAE1;
@@ -386,7 +386,7 @@
 .animateSuccessLong {
 	@include animation('animateSuccessLong 0.75s');
 }
-.icon.success.animate::after {
+.sweet-icon.success.animate::after {
 	@include animation('rotatePlaceholder 4.25s ease-in');
 }
 

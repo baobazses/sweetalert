@@ -60,3 +60,5 @@ sweetAlert({
 * [SweetAlert for Android](https://github.com/pedant/sweet-alert-dialog)
 * [SweetAlert for Bootstrap](https://github.com/lipis/bootstrap-sweetalert)
 
+sass --style nested --sourcemap=none --precision 7 sweet-alert.scss sweet-alert.css
+
