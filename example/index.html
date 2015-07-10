@@ -148,6 +148,17 @@
 &nbsp;&nbsp;imageUrl: <span class="str">"images/thumbs-up.jpg"</span>
 });</pre>
 	</li>
+  <li class="custom-class">
+		<div class="ui">
+			<p>A message with a custom class</p>
+			<button>Try me!</button>
+		</div>
+		<pre>swal({
+      &nbsp;&nbsp;title: <span class="str">"Sweet!"</span>,
+      &nbsp;&nbsp;text: <span class="str">"Here's a custom class."</span>,
+      &nbsp;&nbsp;customClass: <span class="str">"custom"</span>
+});</pre>
+	</li>
 
 </ul>
 
@@ -262,6 +273,11 @@
 		<td><i>null</i></td>
 		<td>Auto close timer of the modal. Set in ms (milliseconds).</td>
 	</tr>
+  <tr>
+		<td><b>custom class</b></td>
+		<td><i>''</i></td>
+		<td>Custom Class</td>
+	</tr>
 </table>
 
 
@@ -352,6 +368,14 @@ document.querySelector('ul.examples li.custom-icon button').onclick = function()
 		title: "Sweet!",
 		text: "Here's a custom image.",
 		imageUrl: 'images/thumbs-up.jpg'
+	});
+};
+
+document.querySelector('ul.examples li.custom-class button').onclick = function(){
+	swal({
+		title: "Sweet!",
+		text: "Here's a custom class.",
+		customClass: 'custom'
 	});
 };
 
